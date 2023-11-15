@@ -1,0 +1,227 @@
+/* fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Variabels */
+:root{
+    --primary-color: #0f2b3a;
+    --secondary-color: #cbd5e1;
+    --dark-color:#082f49;
+    --btn-color: #083344;
+    --text-color-light:#f0f9ff;
+    --text-color-gelap:#083344;
+    --hover-color:#7dd3fc;
+    --navbar-color:#6D6875;
+    --navbar-text:#ffff;
+    --skill-color-hover: #B5838D;
+    --skill-color:#000000;
+    --back-color:#6D6875;
+    --card-color:#F2F2F2;
+    --linked-text:#b2808a;
+
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --small-font-size:14px;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+
+*img {
+    max-width: 100%;
+}
+
+*{
+    text-decoration: none;
+    
+}
+/* Global CSS */
+section{
+    padding: 70px 0;
+}
+section .section-title{
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.navbar-toggler {
+    color: white !important;
+
+}
+
+.header-color{
+    background-color: var(--navbar-color);
+}
+
+.linked-text{
+    color: var(--linked-text);
+}
+
+
+
+.navbar-color{
+    background-color: var(--navbar-color);
+}
+
+.back-color{
+   background-color: var(--back-color);
+}
+
+.card-color{
+    background-color: #908C97;
+}
+
+.btn-color{
+    color: var(--linked-text);
+}
+
+
+.text-color{
+    color: var(--text-color-gelap) ;
+}
+
+.text-color-light{
+    color: var(--text-color-light);
+}
+
+.fs-7 {
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+/* Css Per Section */
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+    color: var(--linked-text);
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+}
+
+.navbar .navbar-brand{
+    color: #ffffff;
+}
+
+
+.header-section .header-title{
+    font-size: var(--h1-font-size);
+    
+}
+
+.header-section .header-skill{
+    color: var(--skill-color);
+}
+
+.header-section .header-skill:hover {
+    color: var(--skill-color-hover);
+}
+
+.header-section .header-skill i{
+    transform: 0.3s;
+}
+
+.header-section .header-skill:hover i{
+    transform: rotate(-45deg);
+}
+
+.header-section .header-img{
+    width: 90%;
+}
+
+.about-me .about-img{
+    width: 50%;
+    justify-content: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.about-title{
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    text-transform: uppercase
+}
+.tengah{
+    text-align: center;
+}
+
+.about-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-about{
+    margin-top: 6%
+    
+}
+
+.text-selected{
+    color: #134e4a;
+}
+
+/* Portofolio */
+
+.portofolio-section .card .card-img-top{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.certificate-section .card .card-img-top{
+    width: 100%;
+    height: 20vw;
+    object-fit: contain;
+}
+
+.footer{
+    text-align: center;
+    background-color: white;
+}
+
+.about-img .d-flex {
+    justify-content: center;
+  }
+
+#scrollToTopButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+@media screen and (max-width: 768px){
+    .portofolio-section .card .card-img-top{
+        height: 100px;
+    }
+
+    .about-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-me .about-title{
+        text-align: center;
+        font-size: var(--h2-font-size);
+        font-weight: bold;
+        text-transform: uppercase
+    }
+    
+}
