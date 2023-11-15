@@ -176,7 +176,7 @@ section .section-title{
 .portofolio-section .card .card-img-top{
     height: 300px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .certificate-section .card .card-img-top{
