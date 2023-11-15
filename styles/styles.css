@@ -171,6 +171,11 @@ section .section-title{
     color: #134e4a;
 }
 
+.experience-img{
+  width: 100%;
+
+}
+
 /* Portofolio */
 
 .portofolio-section .card .card-img-top{
